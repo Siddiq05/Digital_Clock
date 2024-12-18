@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #44562f;
+  flex-direction: column;
+  gap: 40px;
+  color: #e9dfb4;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  background-color: #83934d;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.clock span {
+  font-size: 34px;
+  color: #e9dfb4;
+}
